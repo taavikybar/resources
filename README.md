@@ -1,7 +1,8 @@
 # Practice repository
 
 
-#### Questions
+## Questions
+
 * search algorithms
 	* binary search
 	* simple search 
@@ -16,7 +17,6 @@
 	* what else?
 
 	
-----
 ## Big O
 
 * considerations around speed and memory consumption of algorithms
@@ -29,7 +29,7 @@
 * if not creating anything into memory then O(1)
 * O(n) means using up the exact same amount of memory as the dataset (e.g copying values to a new dataset)
 
-----
+
 
 ## Data Structures
 
@@ -38,7 +38,6 @@
 Objects aka hash tables (key-value pairs).
 
 
-----
 
 ### Stack
 
@@ -58,7 +57,6 @@ Objects aka hash tables (key-value pairs).
 
 **Version 2** - custom list class with nodes that hav ref to next node. push & pop methods.
 
-----
 
 ### Queue
 
@@ -77,7 +75,6 @@ Objects aka hash tables (key-value pairs).
 
 **Version 2** - custom list class with `enqueue` and `dequeue` methods
 
-----
 
 ### Linked list
 
@@ -101,8 +98,6 @@ Objects aka hash tables (key-value pairs).
 	* search - O(n)
 	* access - O(n)
 
-
----
 
 ### Tree
 
@@ -139,8 +134,6 @@ Objects aka hash tables (key-value pairs).
 * new nodes put to the left spaces first
 * heaps, esp Binary Heaps, are used for for Priority Queues - each elem has a priority and highest priority elems are presented first
 
-
-----
 
 ### Graph
 

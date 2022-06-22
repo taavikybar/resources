@@ -16,7 +16,6 @@
 	* js stack
 	* what else?
 
-
 	
 ## Big O
 
@@ -31,13 +30,11 @@
 * O(n) means using up the exact same amount of memory as the dataset (e.g copying values to a new dataset)
 
 
-
 ## Data Structures
 
 ### Objects
 
 Objects aka hash tables (key-value pairs).
-
 
 
 ### Stack
@@ -59,7 +56,6 @@ Objects aka hash tables (key-value pairs).
 **Version 2** - custom list class with nodes that hav ref to next node. push & pop methods.
 
 
-
 ### Queue
 
 * similar as Stack but FIFO - first element added is the first one to come out
@@ -76,7 +72,6 @@ Objects aka hash tables (key-value pairs).
 **Version 1** - array with only push and shift methods
 
 **Version 2** - custom list class with `enqueue` and `dequeue` methods
-
 
 
 ### Linked list
@@ -100,7 +95,6 @@ Objects aka hash tables (key-value pairs).
 	* removal - O(1)
 	* search - O(n)
 	* access - O(n)
-
 
 
 ### Tree
@@ -137,7 +131,6 @@ Objects aka hash tables (key-value pairs).
 * as compact as possible
 * new nodes put to the left spaces first
 * heaps, esp Binary Heaps, are used for for Priority Queues - each elem has a priority and highest priority elems are presented first
-
 
 
 ### Graph

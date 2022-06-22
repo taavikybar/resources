@@ -1,4 +1,4 @@
-## Practice repository
+# Practice repository
 
 
 #### Questions
@@ -17,7 +17,7 @@
 
 	
 ----
-### Big O
+## Big O
 
 * considerations around speed and memory consumption of algorithms
 * how does the usage of resources scale when data scales
@@ -31,16 +31,16 @@
 
 ----
 
-### Data Structures
+## Data Structures
 
-#### Objects
+### Objects
 
 Objects aka hash tables (key-value pairs).
 
 
 ----
 
-#### Stack
+### Stack
 
 * list
 * LIFO only - the last added element is the first one to come out
@@ -60,7 +60,7 @@ Objects aka hash tables (key-value pairs).
 
 ----
 
-#### Queue
+### Queue
 
 * similar as Stack but FIFO - first element added is the first one to come out
 * examples
@@ -79,7 +79,7 @@ Objects aka hash tables (key-value pairs).
 
 ----
 
-#### Linked list
+### Linked list
 
 * list, singly or doubly linked list
 * each node in the list has one or two pointers to the next or next and previous nodes
@@ -104,7 +104,7 @@ Objects aka hash tables (key-value pairs).
 
 ---
 
-#### Tree
+### Tree
 
 * link nodes in a parent/child relationship
 * start with a `root` node
@@ -122,14 +122,14 @@ Objects aka hash tables (key-value pairs).
 * log(n) means time goes up linearlly while dataset size goes up exponentially e.g 1s for 10 elems, 2s for 100 elems, etc 
 
 
-#### Binary tree
+### Binary tree
 
 * each node has a max of two children
 * really useful for searching - Binary Search Tree (BST) is used
 * in BST each node that descends to the left of the parent, must have a smaller value than the parent and to the right, a bigger value. this way, lots of data can be discarded in a binary search.
 
 
-#### Heap
+### Heap
 
 * tree with specific rules
 * MaxHeaps - parent nodes always bigger than children
@@ -142,7 +142,7 @@ Objects aka hash tables (key-value pairs).
 
 ----
 
-#### Graph
+### Graph
 
 * group of nodes with certain connections between them
 * do not have a root, leaf nodes, hear or tail

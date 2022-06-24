@@ -16,24 +16,30 @@ class BinarySearchTree {
   // The insert method takes a value as parameter and inserts the value in its corresponding place within the tree
   insert(value) {
     const newNode = new Node(value)
+
     if (this.root === null) {
       this.root = newNode
       return this
     }
+
     let current = this.root
+
     while (true) {
       if (value === current.value) return undefined
+
       if (value < current.value) {
         if (current.left === null) {
           current.left = newNode
           return this
         }
+
         current = current.left
       } else {
         if (current.right === null) {
           current.right = newNode
           return this
         }
+
         current = current.right
       }
     }
@@ -42,8 +48,10 @@ class BinarySearchTree {
   // If the value is found, it returns the corresponding node and if it's not, it returns undefined
   find(value) {
     if (this.root === null) return false
-    let current = this.root,
-      found = false
+
+    let current = this.root
+    let found = false
+
     while (current && !found) {
       if (value < current.value) {
         current = current.left
@@ -53,14 +61,17 @@ class BinarySearchTree {
         found = true
       }
     }
+
     if (!found) return undefined
     return current
   }
   // The contains method takes a value as parameter and returns true if the value is found within the tree
   contains(value) {
     if (this.root === null) return false
-    let current = this.root,
-      found = false
+
+    let current = this.root
+    let found = false
+
     while (current && !found) {
       if (value < current.value) {
         current = current.left
@@ -70,6 +81,7 @@ class BinarySearchTree {
         return true
       }
     }
+    
     return false
   }
 }

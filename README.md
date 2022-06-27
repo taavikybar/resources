@@ -1,7 +1,5 @@
 # Practice repository
 
-* difference between git merge and git rebase?
-
 [Data Structures](./resources/data-structures.md)
 
 [Algorithms](./resources/algorithms.md)
@@ -85,6 +83,21 @@
 * client-side storage of significant amounts of structured data
 * Web Storage for smaller amounts of data - sessionStorage (not persistent) and localStorage (persistent)
 * SQL based RDBMS (relational db mgmt system) but with object-orientation being able to store any object indexed with a key
+
+## difference between `git merge` and `git rebase`?
+
+* `git merge`
+	* logs are intact with complete history - can be clumsy log / history
+	* easy to find mistakes and resolve them
+	* should be used on shared branches
+	* can just use squash commits feature to have a single commit when merging
+* `git rebase`
+	* logs modified after merge. no logs of feature branch retained.
+	* therefore cannot track when and how the commits were merged to target branch
+	* should be used on private branches
+	* main idea is to keep a linear project history because before merging feature branch commits in, the main branch is updated with any new commits done to it. therefore, feature branch commits are chronologically applied later. basically rewriting history cause you are now working from an updated main branch although it wasn't like that when you started.
+	* never should be used on public repos on commits that have already been pushed up because others might have based their work on these commits and with rebase you can overwrite them, making this history disappear
+* one way is to first rebase and then merge, thereby having up to date main branch to merge into
 
 
 

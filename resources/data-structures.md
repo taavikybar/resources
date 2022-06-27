@@ -9,7 +9,8 @@
 * Symbol
 * null
 * undefined
-* everything else inherits from Object prototype aka hash tables (key-value pairs).
+* everything else inherits from Object prototype aka hash tables (key-value pairs)
+* **function is a callable object**
 
 
 ## Stack

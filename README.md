@@ -1,4 +1,4 @@
-# Practice repository
+# Resources
 
 [Data Structures](./resources/data-structures.md)
 
@@ -100,12 +100,34 @@
 * one way is to first rebase and then merge, thereby having up to date main branch to merge into
 
 
+## Generator functions
+
+* `function*` syntax allows creating iterating functions with non-continuous execution
+* when called, returns a Generator with `next()` method returning `{ value: any, done: boolean }`
 
 
+## `call()`, `bind()`, `apply()`
+
+* `call` executes a function with a given context e.g `func.call(context)` with additional multiple parameters possible
+* `apply` same as `call` but takes context and parameters as an array
+* `bind` creates a new function with the context set to given context
 
 
+## Iterations
+
+* `for...of` creates a loop over iterable objects like String, Array, array-like objects (arguments, NodeList), TypedArray, Map, Set and user-defined iterables
+* `for...in` iterates of enumerable properties of an object that are keyed by strings ignoring keyed by Symbol including inherited enumerable properties
 
 
+## Promises
+
+* can have any of three states: `Pending`, `Fulfilled`, `Rejected`
+* takes callbacks for `resolve` and `reject` events
+
+## Throttle vs debounce
+
+* `throttle` implementation runs once on event, then waits X amount of time before being able to run again on an event. basically a timed lock is locked upon first execution which after being released is able to accept new event triggers.
+* `debounce` delays execution until X amount of time has passed since the last event trigger
 
 
 

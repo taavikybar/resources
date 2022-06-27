@@ -10,7 +10,12 @@
 * null
 * undefined
 * everything else inherits from Object prototype aka hash tables (key-value pairs)
-* **function is a callable object**
+* function is a callable object
+* Classes are special functions with expressions (using `const`) or declarations (using `class`)
+* Hoisting
+	* `var` declaration is hoisted up and initialized with `undefined`
+	* `let` and const declarations are hoisted up but not initialized
+	* `function` definitions are also hoisted up and stored as they are
 
 
 ## Stack

@@ -35,14 +35,14 @@
 * in-place, space complexity O(1)
 
 
-### Breadth First Search
+### Breadth First Search (BFS)
 
 * looks at all the nodes at a given depth before moving further in depth
 
 
-### Depth First Search
+### Depth First Search (DFS)
 
-* 
+* traverses to the end of each branch before moving onto the next branch
 
 ----
 

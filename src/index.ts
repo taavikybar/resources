@@ -1,7 +1,5 @@
-
-export const f = () => {
-  // console.log('running')
+export const f = (): number => {
   return 1
 }
 
-f()
+// f()
